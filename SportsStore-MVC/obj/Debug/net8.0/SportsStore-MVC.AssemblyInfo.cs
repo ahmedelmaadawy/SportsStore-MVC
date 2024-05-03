@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SportsStore-MVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d5554c1b40ed6c79b86fe2b8b711fdf43d388447")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ecdf8cab2c64cf2484b79a909c6cae7040640647")]
 [assembly: System.Reflection.AssemblyProductAttribute("SportsStore-MVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SportsStore-MVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
