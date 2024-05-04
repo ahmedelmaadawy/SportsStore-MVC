@@ -19,7 +19,7 @@ namespace SportsStore_MVC.Controllers
             new ProductListViewModel
             {
                 Products = _repository.Products
-                .Where(p => p.Category == category || category == null)
+                .Where(p => category == null ||p.Category == category )
                 .OrderBy(p => p.ProductId)
                 .Skip((productPage - 1) * PageSize)
                 .Take(PageSize),

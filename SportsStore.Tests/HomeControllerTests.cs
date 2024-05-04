@@ -99,17 +99,19 @@ namespace SportsStore.Tests
             {
                 new Product {ProductId = 1, Name ="P1",Category="Cat1"},
                 new Product {ProductId = 2, Name ="P2",Category="Cat2"},
-                new Product {ProductId = 3, Name ="P3",Category="Cat3"},
+                new Product {ProductId = 3, Name ="P3",Category="Cat1"},
                 new Product {ProductId = 4, Name ="P4",Category="Cat2"},
-                new Product {ProductId = 5, Name ="P5",Category="Cat5"},
+                new Product {ProductId = 5, Name ="P5",Category="Cat3"},
 
             }).AsQueryable<Product>);
 
             HomeController controller = new HomeController(mock.Object);
             controller.PageSize = 3;
             //Act
-            Product[] result =
-                (controller.Index("Cat2", 2)?.ViewData.Model as ProductListViewModel ?? new()).Products.ToArray();
+            Product[] result = (controller.Index("Cat2", 1)?.ViewData.Model as ProductListViewModel ?? new()).Products.ToArray();
+              
+
+
             //Assert
             Assert.Equal(2,result.Length);
             Assert.True(result[0].Name == "P2" && result[0].Category == "Cat2");
