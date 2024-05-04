@@ -20,6 +20,11 @@ namespace SportsStore_MVC.Infrastructure
         public ViewContext? ViewContext { get; set; }
         public PagingInfo pageModel { get; set; }
         public string PageAction {  get; set; }
+        public bool PageClassesEnabled { get; set; } = false;
+        public string PageClass { get; set; } = string.Empty;
+        public string PageClassNormal {  get; set; } = string.Empty;
+        public string PageClassSelected { get; set; } = string.Empty;
+
         public override void Process(TagHelperContext context, TagHelperOutput output)
         {
             if(ViewContext != null && pageModel != null)
@@ -30,6 +35,11 @@ namespace SportsStore_MVC.Infrastructure
                 {
                     TagBuilder tag = new TagBuilder("a");
                     tag.Attributes["href"] = urlHelper.Action(PageAction, new { productPage = i });
+                    if(PageClassesEnabled)
+                    {
+                        tag.AddCssClass(PageClass);
+                        tag.AddCssClass(i == pageModel.CurrentPage?PageClassSelected:PageClassNormal);
+                    }
                     tag.InnerHtml.Append(i.ToString());
                     result.InnerHtml.AppendHtml(tag);
 

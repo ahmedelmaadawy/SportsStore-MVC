@@ -9,9 +9,17 @@
     <link rel="stylesheet" href="~/SportsStore_MVC.styles.css" asp-append-version="true" />
 </head>
 <body>  
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
+       <div class="bg-dark text-white p-2">
+           <span class="navbar-brand ml-2 ">SPORTS STORE</span>
+       </div>
+       <div class="row m-1 p-1">
+           <div id="categories" class="col-3">
+               Put something useful here later
+           </div>
+           <div class="col-9">
+               @RenderBody()
+           </div>
+       </div>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

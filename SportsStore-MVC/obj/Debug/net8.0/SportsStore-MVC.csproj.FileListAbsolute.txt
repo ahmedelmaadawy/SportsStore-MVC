@@ -134,3 +134,4 @@ E:\Coding\CSharp\MVC-Proj\SportsStore-MVC\SportsStore-MVC\bin\Debug\net8.0\runti
 E:\Coding\CSharp\MVC-Proj\SportsStore-MVC\SportsStore-MVC\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 E:\Coding\CSharp\MVC-Proj\SportsStore-MVC\SportsStore-MVC\obj\Debug\net8.0\SportsStore-MVC.csproj.AssemblyReference.cache
 E:\Coding\CSharp\MVC-Proj\SportsStore-MVC\SportsStore-MVC\obj\Debug\net8.0\SportsSt.FFB4E672.Up2Date
+E:\Coding\CSharp\MVC-Proj\SportsStore-MVC\SportsStore-MVC\obj\Debug\net8.0\SportsStore-MVC.sourcelink.json

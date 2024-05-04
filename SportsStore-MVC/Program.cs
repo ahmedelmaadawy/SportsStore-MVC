@@ -26,9 +26,8 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+app.MapControllerRoute("pagination", "Products/Page{productPage}",
+    new {Controller = "Home", action="index"});
 app.MapDefaultControllerRoute();
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
 SeedData.EnsurePopulated(app);
 app.Run();
