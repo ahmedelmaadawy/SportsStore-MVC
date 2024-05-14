@@ -15,6 +15,8 @@ builder.Services.AddDbContext<StoreDbContext>(opts =>
 });
 builder.Services.AddScoped<IStoreRepository, StoreRepository>();
 builder.Services.AddRazorPages();
+builder.Services.AddDistributedMemoryCache();
+builder.Services.AddSession();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -23,7 +25,7 @@ if (!app.Environment.IsDevelopment())
     app.UseExceptionHandler("/Home/Error");
 }
 app.UseStaticFiles();
-
+app.UseSession();
 app.UseRouting();
 
 app.UseAuthorization();
