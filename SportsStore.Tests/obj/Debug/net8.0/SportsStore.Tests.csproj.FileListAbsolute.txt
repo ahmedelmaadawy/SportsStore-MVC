@@ -147,3 +147,4 @@ E:\Coding\CSharp\MVC-Proj\SportsStore-MVC\SportsStore.Tests\bin\Debug\net8.0\run
 E:\Coding\CSharp\MVC-Proj\SportsStore-MVC\SportsStore.Tests\bin\Debug\net8.0\SportsStore-MVC.dll
 E:\Coding\CSharp\MVC-Proj\SportsStore-MVC\SportsStore.Tests\bin\Debug\net8.0\SportsStore-MVC.pdb
 E:\Coding\CSharp\MVC-Proj\SportsStore-MVC\SportsStore.Tests\obj\Debug\net8.0\SportsStore.Tests.sourcelink.json
+E:\Coding\CSharp\MVC-Proj\SportsStore-MVC\SportsStore.Tests\bin\Debug\net8.0\libman.json

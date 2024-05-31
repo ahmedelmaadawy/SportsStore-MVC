@@ -9,5 +9,6 @@ namespace SportsStore_MVC.Models
             
         }
         public DbSet<Product> Products => Set<Product>();
+        public DbSet<Order> Orders => Set<Order>();
     }
 }

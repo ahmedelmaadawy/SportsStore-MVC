@@ -19,6 +19,7 @@ builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession();
 builder.Services.AddScoped<Cart>(sp=>SessionCart.GetCart(sp));
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+builder.Services.AddScoped<IOrderRepository,EFOrderRepository>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
