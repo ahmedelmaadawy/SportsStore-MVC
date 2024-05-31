@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "E:\\Coding\\CSharp\\MVC-Proj\\SportsStore-MVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5FAE2694-195A-4881-B9A2-0AF8A360F95C}|SportsStore-MVC\\SportsStore-MVC.csproj|e:\\coding\\csharp\\mvc-proj\\sportsstore-mvc\\sportsstore-mvc\\pages\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5FAE2694-195A-4881-B9A2-0AF8A360F95C}|SportsStore-MVC\\SportsStore-MVC.csproj|solutionrelative:sportsstore-mvc\\pages\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5FAE2694-195A-4881-B9A2-0AF8A360F95C}|SportsStore-MVC\\SportsStore-MVC.csproj|e:\\coding\\csharp\\mvc-proj\\sportsstore-mvc\\sportsstore-mvc\\models\\sessioncart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FAE2694-195A-4881-B9A2-0AF8A360F95C}|SportsStore-MVC\\SportsStore-MVC.csproj|solutionrelative:sportsstore-mvc\\models\\sessioncart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5FAE2694-195A-4881-B9A2-0AF8A360F95C}|SportsStore-MVC\\SportsStore-MVC.csproj|e:\\coding\\csharp\\mvc-proj\\sportsstore-mvc\\sportsstore-mvc\\pages\\cart.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5FAE2694-195A-4881-B9A2-0AF8A360F95C}|SportsStore-MVC\\SportsStore-MVC.csproj|solutionrelative:sportsstore-mvc\\pages\\cart.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5FAE2694-195A-4881-B9A2-0AF8A360F95C}|SportsStore-MVC\\SportsStore-MVC.csproj|e:\\coding\\csharp\\mvc-proj\\sportsstore-mvc\\sportsstore-mvc\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FAE2694-195A-4881-B9A2-0AF8A360F95C}|SportsStore-MVC\\SportsStore-MVC.csproj|solutionrelative:sportsstore-mvc\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5FAE2694-195A-4881-B9A2-0AF8A360F95C}|SportsStore-MVC\\SportsStore-MVC.csproj|e:\\coding\\csharp\\mvc-proj\\sportsstore-mvc\\sportsstore-mvc\\pages\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FAE2694-195A-4881-B9A2-0AF8A360F95C}|SportsStore-MVC\\SportsStore-MVC.csproj|solutionrelative:sportsstore-mvc\\pages\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +22,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SessionCart.cs",
+              "DocumentMoniker": "E:\\Coding\\CSharp\\MVC-Proj\\SportsStore-MVC\\SportsStore-MVC\\Models\\SessionCart.cs",
+              "RelativeDocumentMoniker": "SportsStore-MVC\\Models\\SessionCart.cs",
+              "ToolTip": "E:\\Coding\\CSharp\\MVC-Proj\\SportsStore-MVC\\SportsStore-MVC\\Models\\SessionCart.cs*",
+              "RelativeToolTip": "SportsStore-MVC\\Models\\SessionCart.cs*",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwAwAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T11:01:20.475Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -46,41 +59,28 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Cart.cshtml",
+              "DocumentMoniker": "E:\\Coding\\CSharp\\MVC-Proj\\SportsStore-MVC\\SportsStore-MVC\\Pages\\Cart.cshtml",
+              "RelativeDocumentMoniker": "SportsStore-MVC\\Pages\\Cart.cshtml",
+              "ToolTip": "E:\\Coding\\CSharp\\MVC-Proj\\SportsStore-MVC\\SportsStore-MVC\\Pages\\Cart.cshtml",
+              "RelativeToolTip": "SportsStore-MVC\\Pages\\Cart.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABUAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-31T11:05:50.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Cart.cshtml.cs",
               "DocumentMoniker": "E:\\Coding\\CSharp\\MVC-Proj\\SportsStore-MVC\\SportsStore-MVC\\Pages\\Cart.cshtml.cs",
               "RelativeDocumentMoniker": "SportsStore-MVC\\Pages\\Cart.cshtml.cs",
               "ToolTip": "E:\\Coding\\CSharp\\MVC-Proj\\SportsStore-MVC\\SportsStore-MVC\\Pages\\Cart.cshtml.cs",
               "RelativeToolTip": "SportsStore-MVC\\Pages\\Cart.cshtml.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACQAAAAFAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwCAAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T08:51:09.396Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Cart.cshtml",
-              "DocumentMoniker": "E:\\Coding\\CSharp\\MVC-Proj\\SportsStore-MVC\\SportsStore-MVC\\Pages\\Cart.cshtml",
-              "RelativeDocumentMoniker": "SportsStore-MVC\\Pages\\Cart.cshtml",
-              "ToolTip": "E:\\Coding\\CSharp\\MVC-Proj\\SportsStore-MVC\\SportsStore-MVC\\Pages\\Cart.cshtml*",
-              "RelativeToolTip": "SportsStore-MVC\\Pages\\Cart.cshtml*",
-              "ViewState": "AQIAAAUAAAAAAAAAAADwvxYAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-31T06:12:20.043Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Cart.cs",
-              "DocumentMoniker": "E:\\Coding\\CSharp\\MVC-Proj\\SportsStore-MVC\\SportsStore-MVC\\Models\\Cart.cs",
-              "RelativeDocumentMoniker": "SportsStore-MVC\\Models\\Cart.cs",
-              "ToolTip": "E:\\Coding\\CSharp\\MVC-Proj\\SportsStore-MVC\\SportsStore-MVC\\Models\\Cart.cs",
-              "RelativeToolTip": "SportsStore-MVC\\Models\\Cart.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T20:20:51.095Z",
+              "WhenOpened": "2024-05-31T10:47:44.681Z",
               "EditorCaption": ""
             }
           ]
