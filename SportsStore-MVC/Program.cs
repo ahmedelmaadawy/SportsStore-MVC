@@ -20,6 +20,7 @@ builder.Services.AddSession();
 builder.Services.AddScoped<Cart>(sp=>SessionCart.GetCart(sp));
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 builder.Services.AddScoped<IOrderRepository,EFOrderRepository>();
+builder.Services.AddServerSideBlazor();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -31,7 +32,7 @@ app.UseStaticFiles();
 app.UseSession();
 app.UseRouting();
 
-app.UseAuthorization();
+app.UseAuthorization(); 
 app.MapControllerRoute("catpage",
     "{category}/Page{productPage:int}",
     new {Controller ="Home",action="Index"}
@@ -48,5 +49,7 @@ app.MapControllerRoute("pagination", "Products/Page{productPage}",
     new {Controller = "Home", action="index",prodctPage = 1});
 app.MapDefaultControllerRoute();
 app.MapRazorPages();
+app.MapBlazorHub();
+app.MapFallbackToPage("/admin/{*catchall}", "/Admin/Index"); 
 SeedData.EnsurePopulated(app);
 app.Run();
