@@ -23,7 +23,8 @@ namespace SportsStore_MVC.Models
         [Required(ErrorMessage = "Please Enter A Country Name")]
         public string? Country { get; set; }
         public bool GiftWrap { get; set; }
-
+        [BindNever]
+        public bool Shipped {  get; set; }
 
     }
 }

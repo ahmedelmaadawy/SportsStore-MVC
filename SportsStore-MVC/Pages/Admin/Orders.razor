@@ -1,3 +1,43 @@
 ﻿@page "/admin/orders"
+@using SportsStore_MVC.Repository
+@inherits  OwningComponentBase<IOrderRepository>
 
-<h4>This is Orders component</h4>
+<OrderTable TableTitle="UnShipped Orders"
+    Orders="UnshippedOrders" ButtonLabel="Ship" OrderSelected="ShipOrder" />
+
+<OrderTable TableTitle="Shipped Orders"
+            Orders="ShippedOrders" ButtonLabel="Reset" OrderSelected="ResetOrder" />
+<button class="btn btn-info" @onclick="@(e=> UpdateDate())">Refresh Data</button>
+
+@code{
+    public IOrderRepository Repository => Service;
+
+    public IEnumerable<Order> AllOrders { set; get; } = Enumerable.Empty<Order>();
+    public IEnumerable<Order> UnshippedOrders { set; get; } = Enumerable.Empty<Order>();
+    public IEnumerable<Order> ShippedOrders { set; get; } = Enumerable.Empty<Order>();
+
+    protected async override Task OnInitializedAsync()
+    {
+        await UpdateDate();
+    }
+
+    public async Task UpdateDate()
+    {
+        AllOrders = await Repository.orders.ToListAsync();
+        UnshippedOrders = AllOrders.Where(o => !o.Shipped);
+        ShippedOrders = AllOrders.Where(o => o.Shipped);
+    }
+
+    public void ShipOrder(int id) => UpdateOrder(id, true);
+    public void ResetOrder(int id) => UpdateOrder(id, false);
+
+    private void UpdateOrder(int id , bool shipValue)
+    {
+        Order? order = Repository.orders.FirstOrDefault(o => o.OrderId == id);
+        if (order != null)
+        {
+            order.Shipped = shipValue;
+            Repository.SaveOrder(order);
+        }
+    }
+}
