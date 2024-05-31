@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using SportsStore_MVC.Models;
@@ -21,6 +22,12 @@ builder.Services.AddScoped<Cart>(sp=>SessionCart.GetCart(sp));
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 builder.Services.AddScoped<IOrderRepository,EFOrderRepository>();
 builder.Services.AddServerSideBlazor();
+
+builder.Services.AddDbContext<AppIdentityDbContext>(options =>
+options.UseSqlServer(
+    builder.Configuration["ConnectionStrings:IdentityConnection"]));
+builder.Services.AddIdentity<IdentityUser,IdentityRole>().
+    AddEntityFrameworkStores<AppIdentityDbContext>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -30,9 +37,9 @@ if (!app.Environment.IsDevelopment())
 }
 app.UseStaticFiles();
 app.UseSession();
+app.UseAuthentication();
+app.UseAuthorization();
 app.UseRouting();
-
-app.UseAuthorization(); 
 app.MapControllerRoute("catpage",
     "{category}/Page{productPage:int}",
     new {Controller ="Home",action="Index"}
@@ -52,4 +59,5 @@ app.MapRazorPages();
 app.MapBlazorHub();
 app.MapFallbackToPage("/admin/{*catchall}", "/Admin/Index"); 
 SeedData.EnsurePopulated(app);
+IdentitySeedData.EnsurePopulate(app);
 app.Run();

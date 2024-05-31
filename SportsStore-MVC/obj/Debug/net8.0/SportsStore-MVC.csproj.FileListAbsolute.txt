@@ -136,3 +136,9 @@ E:\Coding\CSharp\MVC-Proj\SportsStore-MVC\SportsStore-MVC\obj\Debug\net8.0\Sport
 E:\Coding\CSharp\MVC-Proj\SportsStore-MVC\SportsStore-MVC\obj\Debug\net8.0\SportsSt.FFB4E672.Up2Date
 E:\Coding\CSharp\MVC-Proj\SportsStore-MVC\SportsStore-MVC\obj\Debug\net8.0\SportsStore-MVC.sourcelink.json
 E:\Coding\CSharp\MVC-Proj\SportsStore-MVC\SportsStore-MVC\bin\Debug\net8.0\libman.json
+E:\Coding\CSharp\MVC-Proj\SportsStore-MVC\SportsStore-MVC\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\Coding\CSharp\MVC-Proj\SportsStore-MVC\SportsStore-MVC\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\Coding\CSharp\MVC-Proj\SportsStore-MVC\SportsStore-MVC\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\Coding\CSharp\MVC-Proj\SportsStore-MVC\SportsStore-MVC\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+E:\Coding\CSharp\MVC-Proj\SportsStore-MVC\SportsStore-MVC\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+E:\Coding\CSharp\MVC-Proj\SportsStore-MVC\SportsStore-MVC\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
