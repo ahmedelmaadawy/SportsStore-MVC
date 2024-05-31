@@ -1,3 +1,61 @@
 ﻿@page "/admin/products"
 @page "/admin"
-<h4>This is Products component</h4>
+@using SportsStore_MVC.Repository
+@inherits OwningComponentBase<IStoreRepository>
+
+<table class="table table-striped table-sm table-bordered">
+<thead>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Category</th>
+        <th>Price</th><td/>
+    </tr>
+</thead>
+<tbody>
+        @if (ProductData?.Count() > 0)
+        {
+            foreach (Product product in ProductData)
+            {
+                <tr>
+                    <td>@product.ProductId</td>
+                    <td>@product.Name</td>
+                    <td>@product.Category</td>
+                    <td>@product.Price.ToString("c")</td>
+                    <td>
+                        <NavLink class="btn btn-info btn-sm"
+                        href="@GetDetailsUrl(product.ProductId)" >
+                    Details
+                    </NavLink>
+                        <NavLink class="btn btn-warning btn-sm"
+                                 href="@GetEditUrl(product.ProductId)">
+                            Edit
+                        </NavLink>
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="5" class="text-center">No Products</td>
+            </tr>
+        }
+</tbody>
+</table>
+<NavLink class="btn btn-primary" href="/admin/products/create">Create</NavLink>
+@code{
+    public IStoreRepository Repository => Service;
+    public IEnumerable<Product> ProductData { get; set; } = Enumerable.Empty<Product>();
+    protected async override Task OnInitializedAsync()
+    {
+        await UpdateData();
+    }
+    public async Task UpdateData()
+    {
+        ProductData = await Repository.Products.ToListAsync();
+    }
+    public string GetDetailsUrl(long id) => $"/admin/products/details/{id}";
+    public string GetEditUrl(long id) => $"/admin/products/edit/{id}";
+
+}

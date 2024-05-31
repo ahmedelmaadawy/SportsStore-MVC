@@ -10,5 +10,23 @@ namespace SportsStore_MVC.Repository
             _Context = context;
         }
         public IQueryable<Product> Products => _Context.Products;
+
+        public void CreateProduct(Product product)
+        {
+            _Context.Add(product);
+            _Context.SaveChanges();
+        }
+
+        public void DeleteProduct(Product product)
+        {
+            _Context.Remove(product);
+            _Context.SaveChanges();
+
+        }
+
+        public void SaveProduct(Product product)
+        {
+            _Context.SaveChanges();
+        }
     }
 }
