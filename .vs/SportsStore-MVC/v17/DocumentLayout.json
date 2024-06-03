@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "E:\\Coding\\CSharp\\MVC-Proj\\SportsStore-MVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5FAE2694-195A-4881-B9A2-0AF8A360F95C}|SportsStore-MVC\\SportsStore-MVC.csproj|e:\\coding\\csharp\\mvc-proj\\sportsstore-mvc\\sportsstore-mvc\\pages\\admin\\identityusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5FAE2694-195A-4881-B9A2-0AF8A360F95C}|SportsStore-MVC\\SportsStore-MVC.csproj|solutionrelative:sportsstore-mvc\\pages\\admin\\identityusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5FAE2694-195A-4881-B9A2-0AF8A360F95C}|SportsStore-MVC\\SportsStore-MVC.csproj|e:\\coding\\csharp\\mvc-proj\\sportsstore-mvc\\sportsstore-mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FAE2694-195A-4881-B9A2-0AF8A360F95C}|SportsStore-MVC\\SportsStore-MVC.csproj|solutionrelative:sportsstore-mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FAE2694-195A-4881-B9A2-0AF8A360F95C}|SportsStore-MVC\\SportsStore-MVC.csproj|e:\\coding\\csharp\\mvc-proj\\sportsstore-mvc\\sportsstore-mvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FAE2694-195A-4881-B9A2-0AF8A360F95C}|SportsStore-MVC\\SportsStore-MVC.csproj|solutionrelative:sportsstore-mvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5FAE2694-195A-4881-B9A2-0AF8A360F95C}|SportsStore-MVC\\SportsStore-MVC.csproj|e:\\coding\\csharp\\mvc-proj\\sportsstore-mvc\\sportsstore-mvc\\pages\\admin\\adminlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5FAE2694-195A-4881-B9A2-0AF8A360F95C}|SportsStore-MVC\\SportsStore-MVC.csproj|solutionrelative:sportsstore-mvc\\pages\\admin\\adminlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5FAE2694-195A-4881-B9A2-0AF8A360F95C}|SportsStore-MVC\\SportsStore-MVC.csproj|e:\\coding\\csharp\\mvc-proj\\sportsstore-mvc\\sportsstore-mvc\\pages\\admin\\routed.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5FAE2694-195A-4881-B9A2-0AF8A360F95C}|SportsStore-MVC\\SportsStore-MVC.csproj|solutionrelative:sportsstore-mvc\\pages\\admin\\routed.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5FAE2694-195A-4881-B9A2-0AF8A360F95C}|SportsStore-MVC\\SportsStore-MVC.csproj|e:\\coding\\csharp\\mvc-proj\\sportsstore-mvc\\sportsstore-mvc\\pages\\admin\\identityusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FAE2694-195A-4881-B9A2-0AF8A360F95C}|SportsStore-MVC\\SportsStore-MVC.csproj|solutionrelative:sportsstore-mvc\\pages\\admin\\identityusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5FAE2694-195A-4881-B9A2-0AF8A360F95C}|SportsStore-MVC\\SportsStore-MVC.csproj|e:\\coding\\csharp\\mvc-proj\\sportsstore-mvc\\sportsstore-mvc\\pages\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5FAE2694-195A-4881-B9A2-0AF8A360F95C}|SportsStore-MVC\\SportsStore-MVC.csproj|solutionrelative:sportsstore-mvc\\pages\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5FAE2694-195A-4881-B9A2-0AF8A360F95C}|SportsStore-MVC\\SportsStore-MVC.csproj|e:\\coding\\csharp\\mvc-proj\\sportsstore-mvc\\sportsstore-mvc\\models\\identityseeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FAE2694-195A-4881-B9A2-0AF8A360F95C}|SportsStore-MVC\\SportsStore-MVC.csproj|solutionrelative:sportsstore-mvc\\models\\identityseeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5FAE2694-195A-4881-B9A2-0AF8A360F95C}|SportsStore-MVC\\SportsStore-MVC.csproj|e:\\coding\\csharp\\mvc-proj\\sportsstore-mvc\\sportsstore-mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FAE2694-195A-4881-B9A2-0AF8A360F95C}|SportsStore-MVC\\SportsStore-MVC.csproj|solutionrelative:sportsstore-mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5FAE2694-195A-4881-B9A2-0AF8A360F95C}|SportsStore-MVC\\SportsStore-MVC.csproj|e:\\coding\\csharp\\mvc-proj\\sportsstore-mvc\\sportsstore-mvc\\models\\viewmodels\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FAE2694-195A-4881-B9A2-0AF8A360F95C}|SportsStore-MVC\\SportsStore-MVC.csproj|solutionrelative:sportsstore-mvc\\models\\viewmodels\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5FAE2694-195A-4881-B9A2-0AF8A360F95C}|SportsStore-MVC\\SportsStore-MVC.csproj|e:\\coding\\csharp\\mvc-proj\\sportsstore-mvc\\sportsstore-mvc\\models\\appidentitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FAE2694-195A-4881-B9A2-0AF8A360F95C}|SportsStore-MVC\\SportsStore-MVC.csproj|solutionrelative:sportsstore-mvc\\models\\appidentitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5FAE2694-195A-4881-B9A2-0AF8A360F95C}|SportsStore-MVC\\SportsStore-MVC.csproj|e:\\coding\\csharp\\mvc-proj\\sportsstore-mvc\\sportsstore-mvc\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FAE2694-195A-4881-B9A2-0AF8A360F95C}|SportsStore-MVC\\SportsStore-MVC.csproj|solutionrelative:sportsstore-mvc\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,80 +62,92 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AdminLayout.razor",
-              "DocumentMoniker": "E:\\Coding\\CSharp\\MVC-Proj\\SportsStore-MVC\\SportsStore-MVC\\Pages\\Admin\\AdminLayout.razor",
-              "RelativeDocumentMoniker": "SportsStore-MVC\\Pages\\Admin\\AdminLayout.razor",
-              "ToolTip": "E:\\Coding\\CSharp\\MVC-Proj\\SportsStore-MVC\\SportsStore-MVC\\Pages\\Admin\\AdminLayout.razor",
-              "RelativeToolTip": "SportsStore-MVC\\Pages\\Admin\\AdminLayout.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-02T18:52:07.603Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Routed.razor",
-              "DocumentMoniker": "E:\\Coding\\CSharp\\MVC-Proj\\SportsStore-MVC\\SportsStore-MVC\\Pages\\Admin\\Routed.razor",
-              "RelativeDocumentMoniker": "SportsStore-MVC\\Pages\\Admin\\Routed.razor",
-              "ToolTip": "E:\\Coding\\CSharp\\MVC-Proj\\SportsStore-MVC\\SportsStore-MVC\\Pages\\Admin\\Routed.razor",
-              "RelativeToolTip": "SportsStore-MVC\\Pages\\Admin\\Routed.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-02T18:51:40.691Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\Coding\\CSharp\\MVC-Proj\\SportsStore-MVC\\SportsStore-MVC\\Pages\\Admin\\Index.cshtml",
-              "RelativeDocumentMoniker": "SportsStore-MVC\\Pages\\Admin\\Index.cshtml",
-              "ToolTip": "E:\\Coding\\CSharp\\MVC-Proj\\SportsStore-MVC\\SportsStore-MVC\\Pages\\Admin\\Index.cshtml",
-              "RelativeToolTip": "SportsStore-MVC\\Pages\\Admin\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-02T18:51:20.952Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "IdentityUsers.cshtml",
               "DocumentMoniker": "E:\\Coding\\CSharp\\MVC-Proj\\SportsStore-MVC\\SportsStore-MVC\\Pages\\Admin\\IdentityUsers.cshtml",
               "RelativeDocumentMoniker": "SportsStore-MVC\\Pages\\Admin\\IdentityUsers.cshtml",
               "ToolTip": "E:\\Coding\\CSharp\\MVC-Proj\\SportsStore-MVC\\SportsStore-MVC\\Pages\\Admin\\IdentityUsers.cshtml",
               "RelativeToolTip": "SportsStore-MVC\\Pages\\Admin\\IdentityUsers.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA0AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-01T16:55:17.094Z",
+              "WhenOpened": "2024-06-03T17:36:09.715Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "E:\\Coding\\CSharp\\MVC-Proj\\SportsStore-MVC\\SportsStore-MVC\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "SportsStore-MVC\\Controllers\\AccountController.cs",
+              "ToolTip": "E:\\Coding\\CSharp\\MVC-Proj\\SportsStore-MVC\\SportsStore-MVC\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "SportsStore-MVC\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAA5wBoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T20:05:43.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Coding\\CSharp\\MVC-Proj\\SportsStore-MVC\\SportsStore-MVC\\Program.cs",
               "RelativeDocumentMoniker": "SportsStore-MVC\\Program.cs",
               "ToolTip": "E:\\Coding\\CSharp\\MVC-Proj\\SportsStore-MVC\\SportsStore-MVC\\Program.cs",
               "RelativeToolTip": "SportsStore-MVC\\Program.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAwwDUAAAAGAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACgAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T20:04:18.166Z",
+              "WhenOpened": "2024-06-02T19:59:22.304Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "AppIdentityDbContext.cs",
-              "DocumentMoniker": "E:\\Coding\\CSharp\\MVC-Proj\\SportsStore-MVC\\SportsStore-MVC\\Models\\AppIdentityDbContext.cs",
-              "RelativeDocumentMoniker": "SportsStore-MVC\\Models\\AppIdentityDbContext.cs",
-              "ToolTip": "E:\\Coding\\CSharp\\MVC-Proj\\SportsStore-MVC\\SportsStore-MVC\\Models\\AppIdentityDbContext.cs",
-              "RelativeToolTip": "SportsStore-MVC\\Models\\AppIdentityDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAwAAAA",
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "E:\\Coding\\CSharp\\MVC-Proj\\SportsStore-MVC\\SportsStore-MVC\\Models\\ViewModels\\LoginModel.cs",
+              "RelativeDocumentMoniker": "SportsStore-MVC\\Models\\ViewModels\\LoginModel.cs",
+              "ToolTip": "E:\\Coding\\CSharp\\MVC-Proj\\SportsStore-MVC\\SportsStore-MVC\\Models\\ViewModels\\LoginModel.cs",
+              "RelativeToolTip": "SportsStore-MVC\\Models\\ViewModels\\LoginModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T19:56:52.601Z",
+              "WhenOpened": "2024-06-02T19:58:15.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IdentitySeedData.cs",
+              "DocumentMoniker": "E:\\Coding\\CSharp\\MVC-Proj\\SportsStore-MVC\\SportsStore-MVC\\Models\\IdentitySeedData.cs",
+              "RelativeDocumentMoniker": "SportsStore-MVC\\Models\\IdentitySeedData.cs",
+              "ToolTip": "E:\\Coding\\CSharp\\MVC-Proj\\SportsStore-MVC\\SportsStore-MVC\\Models\\IdentitySeedData.cs",
+              "RelativeToolTip": "SportsStore-MVC\\Models\\IdentitySeedData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAiwCAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T18:45:30.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\Coding\\CSharp\\MVC-Proj\\SportsStore-MVC\\SportsStore-MVC\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "SportsStore-MVC\\Views\\Account\\Login.cshtml",
+              "ToolTip": "E:\\Coding\\CSharp\\MVC-Proj\\SportsStore-MVC\\SportsStore-MVC\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "SportsStore-MVC\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABEAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-02T19:43:46.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminLayout.razor",
+              "DocumentMoniker": "E:\\Coding\\CSharp\\MVC-Proj\\SportsStore-MVC\\SportsStore-MVC\\Pages\\Admin\\AdminLayout.razor",
+              "RelativeDocumentMoniker": "SportsStore-MVC\\Pages\\Admin\\AdminLayout.razor",
+              "ToolTip": "E:\\Coding\\CSharp\\MVC-Proj\\SportsStore-MVC\\SportsStore-MVC\\Pages\\Admin\\AdminLayout.razor",
+              "RelativeToolTip": "SportsStore-MVC\\Pages\\Admin\\AdminLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-02T18:52:07.603Z",
               "EditorCaption": ""
             }
           ]

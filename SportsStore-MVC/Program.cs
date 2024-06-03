@@ -37,9 +37,9 @@ if (!app.Environment.IsDevelopment())
 }
 app.UseStaticFiles();
 app.UseSession();
+app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
-app.UseRouting();
 app.MapControllerRoute("catpage",
     "{category}/Page{productPage:int}",
     new {Controller ="Home",action="Index"}
