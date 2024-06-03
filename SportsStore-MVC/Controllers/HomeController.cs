@@ -9,7 +9,7 @@ namespace SportsStore_MVC.Controllers
     public class HomeController : Controller
     {
         private readonly IStoreRepository _repository;
-        public int PageSize = 4;
+        public int PageSize = 6;
         public HomeController(IStoreRepository repository)
         {
             _repository = repository;
